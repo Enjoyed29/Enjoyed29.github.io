@@ -6,7 +6,6 @@
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
   --dl-color-gray-black: #000000;
-  --dl-color-gray-white: #FFFFFF;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
@@ -28,6 +27,7 @@
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
+  --dl-color-gray-backgroundblue: #00203fff;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -54,12 +54,12 @@
   text-decoration: none;
 }
 .button:hover {
-  color: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-backgroundblue);
   border-color: var(--dl-color-pallet-yellow);
   background-color: var(--dl-color-pallet-yellow);
 }
 .input {
-  color: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-backgroundblue);
   cursor: auto;
   outline: none;
   padding: 0.5rem 1rem;
@@ -72,7 +72,7 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-backgroundblue);
 }
 .list {
   width: 100%;
